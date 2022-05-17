@@ -1,0 +1,12 @@
+{
+    "name": "fargus/podzad1",
+    "require": {},
+
+    "autoload":
+     {
+        "psr-4": 
+        {
+            "Photos\\": "phpClass"
+        } 
+     }
+}

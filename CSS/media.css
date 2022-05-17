@@ -1,0 +1,50 @@
+@media screen and (max-width:515px) 
+{
+    header
+    {
+        height: auto;
+    }
+    
+    header a
+    {
+        display: none;
+    }
+    .mobile_icon
+    {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background: #fff;
+        padding: .5rem;
+        border-radius: 5px;
+        margin: 1rem;
+    }
+    .mobile_icon img
+    {
+        width: 100%;
+    }
+
+    .popup
+    {
+        background: #1d1d1d;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+    }
+
+
+    header.open .popup a
+    {
+        display: block;
+        text-align: center;
+        color: white;
+        margin: 10px 0;
+    }
+    #grid
+    {
+        grid-template-columns: 1fr;
+    }
+
+    
+}
