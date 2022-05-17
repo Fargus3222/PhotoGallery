@@ -1,5 +1,5 @@
 <?php
-    require "../vendor/autoload.php";
+    require "vendor/autoload.php";
 
     session_start();
 
@@ -19,13 +19,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
-    <link rel="stylesheet" href="../CSS/media.css">
+    <link rel="stylesheet" href="CSS/media.css">
 
-    <link rel="stylesheet" href="../CSS/media2.css">
+    <link rel="stylesheet" href="CSS/media2.css">
 
-    <link rel="stylesheet" href="../CSS/style_add_photo.css">
+    <link rel="stylesheet" href="CSS/style_add_photo.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +36,7 @@
     
 </head>
 <body>
-    <?php include("header.php") ?>
+    <?php include("phpPages/header.php") ?>
 
     <h1>Глалерея</h1>
 
